@@ -38,12 +38,12 @@ const options = {
 
 fetch('https://google-translate1.p.rapidapi.com/language/translate/v2/detect', options)
 	.then(response => response.json())
-	.then(response => document.getElementById(''))
+	.then(response => console.log(response))
 	.catch(err => console.error(err));
 
 
     </script>
     
-    <p id="demo">Todays Weather </p>
+    <p id="demo">translate</p>
 </body>
 </html>
